@@ -1,0 +1,71 @@
+.background-item {
+    background-size: cover; /* Ensures the image covers the whole area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 10px; /* Adds some padding to make sure text is readable */
+    color: rgb(255, 255, 255); /* Adjust text color for better contrast if needed */
+    animation: fadeIn 5s;
+}
+.img1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8RsEUkJIE9OkKvEKrxCegashJm2xS90Tf6A&usqp=CAU'); /* Replace with the path to your image */
+
+}
+.img2{
+    background-image: url('https://www.chezandre.fr/wp-content/uploads/2022/08/Bruschetta-au-jambon-de-parme-tomate-et-mozzarella-scaled.jpg'); /* Replace with the path to your image */
+
+}
+.img3{
+    background-image: url('https://realfood.tesco.com/media/images/1400x919-Baked-mushroom-christmas-recipe-8431e353-672c-4636-a0a4-64a8c201add9-0-1400x919.jpg'); /* Replace with the path to your image */
+
+}
+.img4{
+    background-image: url('https://hips.hearstapps.com/del.h-cdn.co/assets/18/11/1600x1600/square-1520957481-grilled-salmon-horizontal.jpg?resize=1200:*'); /* Replace with the path to your image */
+
+}
+.img5{
+    background-image: url('https://www.jessicagavin.com/wp-content/uploads/2017/03/chicken-marsala-22-1200-480x270.jpg'); /* Replace with the path to your image */
+
+}
+.img6{
+    background-image: url('https://recipe30.com/wp-content/uploads/2021/08/Asian-stirfried-vegetables.jpg'); /* Replace with the path to your image */
+
+}
+.img7{
+    background-image: url('https://arteflame.com/cdn/shop/articles/Grilled_Easy_Chocolate_Fondue_Recipe_perfect_for_an_Arteflame_grill_dessert_experience.webp?v=1710379384'); /* Replace with the path to your image */
+
+}
+.img8{
+    background-image: url('https://cache.marieclaire.fr/data/photo/w1000_ci/6p/tiramisu-express-laurent-mariotte.jpg'); /* Replace with the path to your image */
+
+}
+.img9{
+    background-image: url('https://i0.wp.com/smittenkitchen.com/wp-content/uploads/2022/02/lemon-sorbet-13-scaled.jpg?fit=1200%2C800&ssl=1'); /* Replace with the path to your image */
+
+}
+
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
